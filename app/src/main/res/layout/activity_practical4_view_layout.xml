@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practical4_view_layout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+        <LinearLayout
+            android:id="@+id/linerLayoutsc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spinner"/>
+            <Spinner
+                android:id="@+id/coursesspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ImageView"/>
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/imagebutton" />
+
+            <TextView
+                android:id="@+id/imgbtntitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image Button"/>
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/imagebutton" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intent (Explicit and Implicit)"/>
+            <Button
+                android:id="@+id/implecitInt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Implicit Intent"/>
+
+            <Button
+                android:id="@+id/explecitInt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explicit Intent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Table Layout"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ICC Ranking of Players:"
+                    android:textSize = "20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <TableRow android:background="#51B435" android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Rank"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Player"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Team"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Points"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Virat Kohli"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IND"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="895"/>
+                </TableRow>
+                <TableRow android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Virat Kohli"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IND"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="895"/>
+                </TableRow>
+                <TableRow android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Virat Kohli"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IND"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="895"/>
+                </TableRow>
+                <TableRow android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Virat Kohli"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IND"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="895"/>
+                </TableRow>
+                <TableRow android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Virat Kohli"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IND"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="895"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frame Layout"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/txtvw1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#286F24"
+                    android:padding="10dp"
+                    android:text="Login Details"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="80dp"
+                    android:background="#ECEEE8"
+                    android:hint="Enter your email"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="150dp"
+                    android:background="#ECEEE8"
+                    android:hint="Enter password"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="240dp"
+                    android:text="Submit" />
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+
+<!--android:text="Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+<!--At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by  devices outside their ecosystem.[7][8]-->
+<!--Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+<!--At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by  devices outside their ecosystem.[7][8]Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+<!--At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by  devices outside their ecosystem.[7][8]Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+<!--At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by  devices outside their ecosystem.[7][8]Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+<!--At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by  devices outside their ecosystem.[7][8]Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+<!--At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by  devices outside their ecosystem.[7][8]Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.-->
+
+
+<!--"-->
+<!--android:justificationMode="inter_word"-->
+<!--    />-->
